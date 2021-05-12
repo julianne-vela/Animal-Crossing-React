@@ -3,7 +3,7 @@ import VillagerList from '../components/villagers/VillagerList';
 import { findVillagers } from '../services/acnhApi';
 import '../components/villagers/villagers.css';
 
-export default class ElderHamContainer extends Component {
+export default class ElderhamContainer extends Component {
   state = {
     loading: true,
     villagers: [],
