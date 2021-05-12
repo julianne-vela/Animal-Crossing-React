@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { findVillagerById } from '../services/acnhApi';
 
 export default class VillagerDetails extends Component {
   state = {
@@ -7,10 +9,26 @@ export default class VillagerDetails extends Component {
   };
 
   async componentDidMount() {
-    const villager = await findById(this.props.match.params._id);
+    const villager = await findVillagerById(this.props.match.params.id);
+    this.setState({
+      villagerObject: villager,
+      loading: false,
+    });
   }
 
   render() {
+    const {
+      name,
+      japaneseName,
+      image,
+      species,
+      birthday,
+      favSong,
+      quote,
+      personality,
+      style,
+    } = this.state.villagerObject;
+
     return (
       <main className="villagerDetails">
         <label>{name}</label>
@@ -29,17 +47,3 @@ export default class VillagerDetails extends Component {
     );
   }
 }
-
-// VillagerDetails.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   japaneseName: PropTypes.string.isRequired,
-//   image: PropTypes.string.isRequired,
-//   species: PropTypes.string.isRequired,
-//   birthday: PropTypes.string.isRequired,
-//   favSong: PropTypes.string.isRequired,
-//   quote: PropTypes.string.isRequired,
-//   personality: PropTypes.string.isRequired,
-//   style: PropTypes.string.isRequired,
-// };
-
-// export default VillagerDetails;

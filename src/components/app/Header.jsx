@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav>
+    <header>
       <Link to="/">Home</Link>
       <h1>Welcome to Elderham</h1>
-      <Link to="/:name">Villagers</Link>
-    </nav>
+    </header>
   );
 };
 
