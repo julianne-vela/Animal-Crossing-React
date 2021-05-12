@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Villager from './Villager';
+import { Link } from 'react-router-dom';
 
 const VillagerList = ({ villagers }) => {
   return (
     <ul aria-label="villagers" className="villagersList">
       {villagers.map((villager) => (
-        <a href={`villagers/${villager.id}`} key={villager.id}>
+        <Link to={`villagers/${villager.id}`} key={villager.id}>
           <li>
             <Villager
               name={villager.name}
@@ -14,7 +15,7 @@ const VillagerList = ({ villagers }) => {
               species={villager.species}
             />
           </li>
-        </a>
+        </Link>
       ))}
     </ul>
   );

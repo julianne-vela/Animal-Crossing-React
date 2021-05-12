@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { findVillagerById } from '../services/acnhApi';
 
 export default class VillagerDetails extends Component {
@@ -30,7 +29,7 @@ export default class VillagerDetails extends Component {
     } = this.state.villagerObject;
 
     return (
-      <main className="villagerDetails">
+      <main role="villagerDetails">
         <label>{name}</label>
         <label>{japaneseName}</label>
         <img src={image} alt={name} />
@@ -42,7 +41,7 @@ export default class VillagerDetails extends Component {
           <li>{personality}</li>
           <li>{style}</li>
         </ul>
-        <Link to="/">Back to List</Link>
+        <a href="/">Back to List</a>
       </main>
     );
   }

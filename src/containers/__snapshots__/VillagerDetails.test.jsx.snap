@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Villager Details Test should render extended details about the selected villager 1`] = `
+<main
+  role="villagerDetails"
+>
+  <label />
+  <label />
+  <img />
+  <ul>
+    <li />
+    <li />
+    <li />
+    <li />
+    <li />
+    <li />
+  </ul>
+  <a
+    href="/"
+  >
+    Back to List
+  </a>
+</main>
+`;
