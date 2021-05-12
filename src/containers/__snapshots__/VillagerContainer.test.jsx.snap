@@ -4,16 +4,33 @@ exports[`Villager Container Test should render extended details about the select
 <main
   role="villagerDetails"
 >
-  <label />
-  <label />
-  <img />
+  <label>
+    Agnes
+  </label>
+  <label>
+    アグネス Agunesu
+  </label>
+  <img
+    alt="Agnes"
+    src="https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432"
+  />
   <ul>
+    <li>
+      pig
+    </li>
+    <li>
+      April 21st (Taurus)
+    </li>
     <li />
-    <li />
-    <li />
-    <li />
-    <li />
-    <li />
+    <li>
+      You reap what you sow.
+    </li>
+    <li>
+      sisterly
+    </li>
+    <li>
+      Rock 'n' roll
+    </li>
   </ul>
   <a
     href="/"
