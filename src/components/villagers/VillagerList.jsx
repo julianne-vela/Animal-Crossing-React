@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Villager from './Villager';
 
 function VillagerList({ villagers }) {
   return (
-    <ul aria-label="villagers">
+    <ul aria-label="villagers" className="villagersList">
       {villagers.map((villager) => (
         <li key={villager.id}>
           <Villager
             name={villager.name}
-            image={villager.photo}
+            image={villager.image}
             species={villager.species}
           />
         </li>

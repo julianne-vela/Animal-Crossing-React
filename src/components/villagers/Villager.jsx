@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
-const Villager = ({ name, species, photo }) => {
+const Villager = ({ name, species, image }) => {
   return (
-    <>
-      <p>{name}</p>
-      <img src={photo} alt={name} />
-      <p>{species}</p>
-    </>
+    <Link to={`villagers/${name}`}>
+      <div className="villager">
+        <p>{name}</p>
+        <img src={image} alt={name} />
+        <p>{species}</p>
+      </div>
+    </Link>
   );
 };
 

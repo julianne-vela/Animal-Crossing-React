@@ -1,0 +1,21 @@
+.villagersList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.villagers {
+  width: 200;
+  height: 300;
+}
+
+.villagers > img {
+  scale: 0.75;
+}
+
+li,
+ul,
+ol {
+  list-style: none;
+}
