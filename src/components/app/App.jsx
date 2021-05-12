@@ -6,7 +6,7 @@ import {
   //   useParams,
 } from 'react-router-dom';
 import ElderhamContainer from '../../containers/ElderhamContainer';
-import VillagerDetails from '../../containers/VillagerDetails';
+import VillagerContainer from '../../containers/VillagerContainer';
 import Header from './Header';
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={ElderhamContainer} />
-        <Route path="/villagers/:id" exact component={VillagerDetails} />
+        <Route path="/villagers/:id" exact component={VillagerContainer} />
       </Switch>
     </Router>
   );

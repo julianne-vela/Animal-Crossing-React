@@ -146,6 +146,26 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
     </li>
   </a>
   <a
+    href="/villagers/5f5fb4bbbfd05c2aed82e46a"
+  >
+    <li>
+      <div
+        class="villager"
+      >
+        <p>
+          Angus
+        </p>
+        <img
+          alt="Angus"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/Angus_NH.png/revision/latest?cb=20200802083758"
+        />
+        <p>
+          bull
+        </p>
+      </div>
+    </li>
+  </a>
+  <a
     href="/villagers/5f5fb4bbbfd05c2aed82e466"
   >
     <li>
@@ -181,26 +201,6 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         />
         <p>
           mouse
-        </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e46a"
-  >
-    <li>
-      <div
-        class="villager"
-      >
-        <p>
-          Angus
-        </p>
-        <img
-          alt="Angus"
-          src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/Angus_NH.png/revision/latest?cb=20200802083758"
-        />
-        <p>
-          bull
         </p>
       </div>
     </li>
@@ -426,26 +426,6 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
     </li>
   </a>
   <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e475"
-  >
-    <li>
-      <div
-        class="villager"
-      >
-        <p>
-          Ava
-        </p>
-        <img
-          alt="Ava"
-          src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/cc/Ava_NH.png/revision/latest?cb=20200609055741"
-        />
-        <p>
-          chicken
-        </p>
-      </div>
-    </li>
-  </a>
-  <a
     href="/villagers/5f5fb4bbbfd05c2aed82e476"
   >
     <li>
@@ -466,21 +446,21 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
     </li>
   </a>
   <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e478"
+    href="/villagers/5f5fb4bbbfd05c2aed82e475"
   >
     <li>
       <div
         class="villager"
       >
         <p>
-          Baabara
+          Ava
         </p>
         <img
-          alt="Baabara"
-          src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/Baabara_NH.png/revision/latest?cb=20200802165552"
+          alt="Ava"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/cc/Ava_NH.png/revision/latest?cb=20200609055741"
         />
         <p>
-          sheep
+          chicken
         </p>
       </div>
     </li>
@@ -501,6 +481,26 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         />
         <p>
           cub
+        </p>
+      </div>
+    </li>
+  </a>
+  <a
+    href="/villagers/5f5fb4bbbfd05c2aed82e47a"
+  >
+    <li>
+      <div
+        class="villager"
+      >
+        <p>
+          Bangle
+        </p>
+        <img
+          alt="Bangle"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/Bangle_NH.png/revision/latest?cb=20200803120044"
+        />
+        <p>
+          tiger
         </p>
       </div>
     </li>
