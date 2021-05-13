@@ -2,7 +2,6 @@ export default function mungeVillagers(rawData) {
   return rawData.map((item) => ({
     id: item._id,
     name: item.name,
-    japaneseName: item.japaneseName,
     species: item.species,
     image: item.image,
     favSong: item.song.name,
@@ -23,8 +22,8 @@ export function mungeNewVillagers(rawData) {
     gender: item.gender,
     hobby: item.hobby,
     catchPhrase: item.catch_phrase,
-    iconUri: item.icon_uri,
-    imageUri: item.image_uri,
+    icon: item.icon_uri,
+    image: item.image_uri,
     bubbleColor: item.bubble_color,
     textColor: item.text_color,
     saying: item.saying,

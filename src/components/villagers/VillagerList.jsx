@@ -29,6 +29,15 @@ VillagerList.propTypes = {
       image: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       species: PropTypes.string.isRequired,
+      personality: PropTypes.string.isRequired,
+      birthday: PropTypes.string.isRequired,
+      //   gender: PropTypes.string.isRequired,
+      //   hobby: PropTypes.string.isRequired,
+      //   catchPhrase: PropTypes.string.isRequired,
+      //   icon: PropTypes.string.isRequired,
+      //   bubbleColor: PropTypes.string.isRequired,
+      //   textColor: PropTypes.string.isRequired,
+      //   saying: PropTypes.string.isRequired,
     })
   ).isRequired,
 };
