@@ -12,3 +12,21 @@ export default function mungeVillagers(rawData) {
     style: item.style,
   }));
 }
+
+export function mungeNewVillagers(rawData) {
+  return rawData.map((item) => ({
+    id: item.id,
+    name: item.name,
+    species: item.species,
+    personality: item.personality,
+    birthday: item.birthday,
+    gender: item.gender,
+    hobby: item.hobby,
+    catchPhrase: item.catch_phrase,
+    iconUri: item.icon_uri,
+    imageUri: item.image_uri,
+    bubbleColor: item.bubble_color,
+    textColor: item.text_color,
+    saying: item.saying,
+  }));
+}

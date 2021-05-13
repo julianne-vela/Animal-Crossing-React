@@ -6,6 +6,7 @@ export default class VillagerDetails extends Component {
   state = {
     villagerObject: {},
     loading: true,
+    searchQuery: '',
   };
 
   async componentDidMount() {

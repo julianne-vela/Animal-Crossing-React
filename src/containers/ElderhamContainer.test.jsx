@@ -11,9 +11,7 @@ describe('Elderham Container Tests', () => {
       </MemoryRouter>
     );
 
-    screen.getByText(
-      "Oh, drumsticks... Looks like we didn't find what you were looking for right now...Sorry about that."
-    );
+    screen.findByRole('img');
 
     const ul = await screen.findByRole('list', { name: 'villagers' });
     expect(ul).toMatchSnapshot();
