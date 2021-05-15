@@ -6,12 +6,13 @@ import Controls from '../components/search/Controls';
 
 export default class ElderhamContainer extends Component {
   state = {
-    loading: true,
+    loading: false,
     villagers: [],
     searchQuery: '',
   };
 
   async componentDidMount() {
+    this.setState({ loading: true });
     const villagers = await findVillagers();
 
     this.setState({

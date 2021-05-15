@@ -11,7 +11,7 @@ describe('Elderham Container Tests', () => {
       </MemoryRouter>
     );
 
-    screen.findByRole('img');
+    screen.findAllByRole('img');
 
     const ul = await screen.findByRole('list', { name: 'villagers' });
     expect(ul).toMatchSnapshot();

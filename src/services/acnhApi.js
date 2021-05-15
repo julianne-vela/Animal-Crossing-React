@@ -1,14 +1,24 @@
 // require('dotenv').config();
-import mungeVillagers, { mungeNewVillagers } from './mungeUtils';
+// import mungeVillagers, { mungeNewVillagers } from './mungeUtils';
 
 // const URL = process.env.HEROKU_URL;
 
 export const findVillagers = async () => {
   const res = await fetch('https://ac-vill.herokuapp.com/villagers');
   //   const res = await fetch('http://localhost:7890/api/v1/villagers');
-  const rawData = await res.json();
-  const villagers = mungeVillagers(rawData);
-  return villagers;
+  const results = await res.json();
+
+  return results.map((villager) => ({
+    id: villager._id,
+    name: villager.name,
+    species: villager.species,
+    image: villager.image,
+    favSong: villager.song.name,
+    birthday: villager.birthday,
+    quote: villager.quote,
+    personality: villager.personality,
+    style: villager.style,
+  }));
 };
 
 export const findVillagerById = async (id) => {

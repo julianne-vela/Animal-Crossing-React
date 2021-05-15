@@ -1,16 +1,16 @@
-export default function mungeVillagers(rawData) {
-  return rawData.map((item) => ({
-    id: item._id,
-    name: item.name,
-    species: item.species,
-    image: item.image,
-    favSong: item.song.name,
-    birthday: item.birthday,
-    quote: item.quote,
-    personality: item.personality,
-    style: item.style,
-  }));
-}
+// export default function mungeVillagers(rawData) {
+//   return rawData.map((item) => ({
+//     id: item._id,
+//     name: item.name,
+//     species: item.species,
+//     image: item.image,
+//     favSong: item.song.name,
+//     birthday: item.birthday,
+//     quote: item.quote,
+//     personality: item.personality,
+//     style: item.style,
+//   }));
+// }
 
 export function mungeNewVillagers(rawData) {
   return rawData.map((item) => ({
