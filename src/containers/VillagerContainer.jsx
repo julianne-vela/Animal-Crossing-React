@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import LoadScreen from '../components/app/LoadScreen';
 import VillagerDetail from '../components/villagers/VillagerDetail';
 import { findVillagerById } from '../services/acnhApi';
 
 export default class VillagerDetails extends Component {
   state = {
     villagerObject: {},
-    loading: true,
+    loading: false,
   };
 
   async componentDidMount() {
+    this.setState({ loading: true });
     const villager = await findVillagerById(this.props.match.params.id);
     this.setState({
       villagerObject: villager,
@@ -19,14 +21,7 @@ export default class VillagerDetails extends Component {
   render() {
     const { villagerObject, loading } = this.state;
 
-    return (
-      <div>
-        {loading ? (
-          <p>Dodo One, this is Dodo Tower. Do you copy?</p>
-        ) : (
-          <VillagerDetail villager={villagerObject} />
-        )}
-      </div>
-    );
+    if (loading) return <LoadScreen />;
+    return <VillagerDetail villager={villagerObject} />;
   }
 }

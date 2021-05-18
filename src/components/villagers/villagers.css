@@ -5,13 +5,14 @@
   justify-content: center;
 }
 
-.villagers {
+.villagerCard {
   width: 200;
   height: 300;
 }
 
-.villagers > img {
-  scale: 0.75;
+.villagerCard img {
+  width: 200;
+  height: 300;
 }
 
 li,

@@ -1,31 +1,55 @@
 import React, { Component } from 'react';
 import VillagerList from '../components/villagers/VillagerList';
-import { findVillagers } from '../services/acnhApi';
-import '../components/villagers/villagers.css';
+import { findVillagers, searchBySpecies } from '../services/acnhApi';
+import LoadScreen from '../components/app/LoadScreen';
+import Controls from '../components/search/Controls';
 
 export default class ElderhamContainer extends Component {
   state = {
-    loading: true,
+    loading: false,
     villagers: [],
+    searchQuery: '',
   };
 
   async componentDidMount() {
+    this.setState({ loading: true });
     const villagers = await findVillagers();
+
     this.setState({
       villagers,
       loading: false,
     });
   }
 
+  handleQueryChange = ({ target }) => {
+    this.setState({ searchQuery: target.value });
+  };
+
+  handleSubmit = async (e) => {
+    e.preventDefault();
+
+    this.setState({ loading: true });
+
+    const villagers = await searchBySpecies(this.state.searchQuery);
+    this.setState({
+      loading: false,
+      villagers,
+    });
+  };
   render() {
-    const { loading, villagers } = this.state;
-    if (loading)
-      return (
-        <p>
-          Oh, drumsticks... Looks like we didn't find what you were looking for
-          right now...Sorry about that.
-        </p>
-      );
-    return <VillagerList villagers={villagers} />;
+    const { loading, villagers, searchQuery } = this.state;
+
+    if (loading) return <LoadScreen />;
+
+    return (
+      <>
+        <Controls
+          onSubmit={this.handleSubmit}
+          species={searchQuery}
+          onInputChange={this.handleQueryChange}
+        />
+        <VillagerList villagers={villagers} />
+      </>
+    );
   }
 }

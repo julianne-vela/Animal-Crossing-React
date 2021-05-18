@@ -10,7 +10,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Admiral
@@ -30,7 +30,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Agent S
@@ -50,7 +50,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Agnes
@@ -70,7 +70,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Al
@@ -90,7 +90,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Alfonso
@@ -110,7 +110,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Alice
@@ -130,7 +130,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Ankha
@@ -150,7 +150,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Angus
@@ -170,7 +170,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Alli
@@ -190,7 +190,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Anicotti
@@ -210,7 +210,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Amelia
@@ -230,7 +230,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Annalisa
@@ -250,7 +250,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Antonio
@@ -270,7 +270,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Annalise
@@ -290,7 +290,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Anabelle
@@ -310,7 +310,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Apollo
@@ -330,7 +330,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Anchovy
@@ -350,7 +350,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Apple
@@ -370,7 +370,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Astrid
@@ -390,7 +390,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Audie
@@ -410,7 +410,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Aurora
@@ -430,7 +430,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Avery
@@ -450,7 +450,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Ava
@@ -470,7 +470,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Barold
@@ -490,7 +490,7 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   >
     <li>
       <div
-        class="villager"
+        class="villagerCard"
       >
         <p>
           Bangle

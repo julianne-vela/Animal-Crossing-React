@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Villager from './Villager';
 import { Link } from 'react-router-dom';
+import style from './villagers.css';
 
 const VillagerList = ({ villagers }) => {
   return (
-    <ul aria-label="villagers" className="villagersList">
+    <ul aria-label="villagers" className={style.villagersList}>
       {villagers.map((villager) => (
         <Link to={`villagers/${villager.id}`} key={villager.id}>
           <li>
@@ -28,6 +29,15 @@ VillagerList.propTypes = {
       image: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       species: PropTypes.string.isRequired,
+      personality: PropTypes.string.isRequired,
+      birthday: PropTypes.string.isRequired,
+      //   gender: PropTypes.string.isRequired,
+      //   hobby: PropTypes.string.isRequired,
+      //   catchPhrase: PropTypes.string.isRequired,
+      //   icon: PropTypes.string.isRequired,
+      //   bubbleColor: PropTypes.string.isRequired,
+      //   textColor: PropTypes.string.isRequired,
+      //   saying: PropTypes.string.isRequired,
     })
   ).isRequired,
 };
