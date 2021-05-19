@@ -1,34 +1,32 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import style from '../styles.css';
 
-function VillagerDetail({ villager }) {
+const VillagerDetail = ({ villager }) => {
   return (
-    <main role="villagerDetails">
-      <label>{villager.name}</label>
+    <section className={style.villagerCard} aria-label="villagerDetails">
+      <label>Hi, I'm {villager.name}!</label>
       <img src={villager.image} alt={villager.name} />
-      <ul>
-        <li>{villager.species}</li>
-        <li>{villager.birthday}</li>
-        <li>{villager.favSong}</li>
-        <li>{villager.saying}</li>
-        <li>{villager.personality}</li>
-        <li>{villager.hobby}</li>
-      </ul>
+      <span>
+        I'm a {villager.species} and my birthday is {villager.birthday}! I love
+        listening to {villager.favSong} while I'm {villager.skill}. I'm pretty{' '}
+        {villager.personality} and always say {villager.quote}. Well, it was
+        nice chatting! Bye!
+      </span>
       <a href="/">Back to List</a>
-    </main>
+    </section>
   );
-}
+};
 
 VillagerDetail.propTypes = {
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  species: PropTypes.string.isRequired,
   birthday: PropTypes.string.isRequired,
   favSong: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  japaneseName: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  personality: PropTypes.string.isRequired,
   quote: PropTypes.string.isRequired,
-  species: PropTypes.string.isRequired,
-  style: PropTypes.string.isRequired,
+  personality: PropTypes.string.isRequired,
+  skill: PropTypes.string.isRequired,
 };
 
 export default VillagerDetail;

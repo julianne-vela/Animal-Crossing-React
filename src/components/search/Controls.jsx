@@ -1,16 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Controls = ({ species, onInputChange, onSubmit }) => {
+const Controls = ({ onInputChange, onSubmit }) => {
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} aria-label="search-query">
       <label htmlFor="search-query">Search by Species</label>
-      <input
-        type="text"
-        id="search-query"
-        value={species}
-        onChange={onInputChange}
-      />
+      <input type="search" id="search-query" onChange={onInputChange} />
       <button aria-label="search-submit">Search</button>
     </form>
   );
@@ -19,7 +14,6 @@ const Controls = ({ species, onInputChange, onSubmit }) => {
 Controls.propTypes = {
   onInputChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
-  species: PropTypes.string.isRequired,
 };
 
 export default Controls;

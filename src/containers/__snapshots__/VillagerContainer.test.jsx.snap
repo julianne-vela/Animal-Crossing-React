@@ -1,23 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Villager Container Test should render extended details about the selected villager 1`] = `
-<main
-  role="villagerDetails"
+<section
+  aria-label="villagerDetails"
+  class="villagerCard"
 >
-  <label />
+  <label>
+    Hi, I'm 
+    !
+  </label>
   <img />
-  <ul>
-    <li />
-    <li />
-    <li />
-    <li />
-    <li />
-    <li />
-  </ul>
+  <span>
+    I'm a 
+     and my birthday is 
+    ! I love listening to 
+     while I'm 
+    . I'm pretty
+     
+     and always say 
+    . Well, it was nice chatting! Bye!
+  </span>
   <a
     href="/"
   >
     Back to List
   </a>
-</main>
+</section>
 `;

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import LoadScreen from '../components/app/LoadScreen';
 import VillagerDetail from '../components/villagers/VillagerDetail';
-import { findVillagerById } from '../services/acnhApi';
+import { findVillagers } from '../services/acnhApi';
+import style from '../components/styles.css';
 
 export default class VillagerDetails extends Component {
   state = {
@@ -11,7 +12,7 @@ export default class VillagerDetails extends Component {
 
   async componentDidMount() {
     this.setState({ loading: true });
-    const villager = await findVillagerById(this.props.match.params.id);
+    const villager = await findVillagers(this.props.match.params.id);
     this.setState({
       villagerObject: villager,
       loading: false,
@@ -22,6 +23,11 @@ export default class VillagerDetails extends Component {
     const { villagerObject, loading } = this.state;
 
     if (loading) return <LoadScreen />;
-    return <VillagerDetail villager={villagerObject} />;
+
+    return (
+      <main className={style.mainContainer}>
+        <VillagerDetail villager={villagerObject} />
+      </main>
+    );
   }
 }

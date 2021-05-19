@@ -5,11 +5,13 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
   aria-label="villagers"
   class="villagersList"
 >
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e460"
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e460"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -22,14 +24,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           bird
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e461"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e461"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -42,14 +46,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           squirrel
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e462"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e462"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -62,14 +68,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           pig
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e463"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e463"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -82,14 +90,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           gorilla
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e464"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e464"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -102,14 +112,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           alligator
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e465"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e465"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -122,14 +134,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           koala
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e46c"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e46c"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -142,14 +156,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           cat
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e46a"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e46a"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -162,14 +178,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           bull
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e466"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e466"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -182,14 +200,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           alligator
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e46b"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e46b"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -202,14 +222,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           mouse
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e467"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e467"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -222,14 +244,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           eagle
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e46d"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e46d"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -242,14 +266,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           anteater
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e46f"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e46f"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -262,14 +288,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           anteater
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e46e"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e46e"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -282,14 +310,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           horse
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e468"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e468"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -302,14 +332,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           anteater
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e470"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e470"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -322,14 +354,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           eagle
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e469"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e469"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -342,14 +376,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           bird
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e471"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e471"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -362,14 +398,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           hamster
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e472"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e472"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -382,14 +420,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           kangaroo
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e473"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e473"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -402,14 +442,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           wolf
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e474"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e474"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -422,14 +464,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           penguin
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e476"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e476"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -442,14 +486,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           eagle
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e475"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e475"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -462,14 +508,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           chicken
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e47b"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e47b"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -482,14 +530,16 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           cub
         </p>
-      </div>
-    </li>
-  </a>
-  <a
-    href="/villagers/5f5fb4bbbfd05c2aed82e47a"
+      </article>
+    </a>
+  </li>
+  <li
+    class="cardBox"
   >
-    <li>
-      <div
+    <a
+      href="/villagers/5f5fb4bbbfd05c2aed82e47a"
+    >
+      <article
         class="villagerCard"
       >
         <p>
@@ -502,8 +552,37 @@ exports[`Elderham Container Tests should render a list of 25 villagers to the pa
         <p>
           tiger
         </p>
-      </div>
-    </li>
-  </a>
+      </article>
+    </a>
+  </li>
 </ul>
+`;
+
+exports[`Elderham Container Tests should render search results 1`] = `
+<form
+  aria-label="search-query"
+>
+  <label
+    for="search-query"
+  >
+    Search by Species
+  </label>
+  <input
+    id="search-query"
+    type="search"
+  />
+  <button
+    aria-label="search-submit"
+  >
+    Search
+  </button>
+</form>
+`;
+
+exports[`Elderham Container Tests should render search results 2`] = `
+<button
+  aria-label="search-submit"
+>
+  Search
+</button>
 `;
